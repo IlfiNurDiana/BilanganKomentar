@@ -68,7 +68,7 @@ header ul li a:hover {
 input, textarea {
     width: 620px;
     margin-top: 7px;
-    margin-top: 20px;
+    margin-bottom: 20px;
     padding: 10px;
     font-size: 15px;
     border: 2.5px solid #008080;
