@@ -1,0 +1,106 @@
+* {
+    padding:0;
+    margin:0;
+    font-family: avenir-next;
+}
+.atas {
+    padding: 7.8px 0;
+    background-color: #5f9ea0;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+.container:after {
+    content:'';
+    display: block;
+    clear: both;
+}
+header h1 {
+    padding: 15px 0;
+    float: left;
+    color: darkcyan;
+    display: block;
+}
+header ul {
+    float: right;
+}
+header ul li {
+    display: inline-block;
+}
+header ul li a {
+    padding: 25px 20px;
+    display: inline-block;
+} 
+header ul li a:hover {
+    background-color: #5f9ea0;
+    color: #ffffff;
+}
+.selected {
+    background-color: #5f9ea0;
+    color: #ffffff;
+}
+.bawah {
+    background-color: #5f9ea0;
+    height: 60px;
+}
+.bawah h3 {
+    color: #ffffff;
+    float: left;
+    padding: 18px 20px;
+    font-family: courier;
+}
+.komentar h4 {
+    font-family: arial;
+    padding: 20px 0;
+    text-align: center;
+    background-color: aliceblue;
+    color: #044949;
+}
+.form {
+    text-align: center;
+    background-color: aliceblue;
+}
+input {
+    width: 620px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    padding: 10px 0;
+    border: 2.5px solid #008080;
+}
+textarea {
+    width: 620px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    padding: 20px 0;
+    border: 2.5px solid #008080;
+}
+.kirim {
+    text-align: center;
+    padding-bottom: 80px;
+    background-color: aliceblue;
+}
+.submit {
+    background-color: rgb(81, 197, 199);
+    color: #000000;
+    width: 350px;
+    border: 1px solid rgb(81, 197, 199);
+    font-size: large;
+}
+.footer {
+    padding: 15px 0;
+    background-color: rgb(41, 83, 83);
+    color: #ffffff;
+    text-align: center;
+    font-family: courier;
+}
+.footer p {
+    padding: 10px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 11.5px;
+}
