@@ -69,14 +69,16 @@ input {
     width: 620px;
     margin-top: 7px;
     margin-bottom: 10px;
-    padding: 10px 0;
+    padding: 10px;
+    font-size: 15px;
     border: 2.5px solid #008080;
 }
 textarea {
     width: 620px;
     margin-top: 7px;
     margin-bottom: 10px;
-    padding: 20px 0;
+    padding: 10px;
+    font-size: 15px;
     border: 2.5px solid #008080;
 }
 .kirim {
